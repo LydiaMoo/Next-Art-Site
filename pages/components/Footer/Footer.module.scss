@@ -1,0 +1,22 @@
+.footer{
+  width: 100%;
+  border-top: 1px solid #6E6E6E;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dash {
+  svg { width: 14px; }
+}
+
+.coffee {
+  padding: 14px 0px;
+  display: block;
+  align-self: center;
+}
+
+.nav{
+  padding: 14px 0px;
+  align-self: center;
+}

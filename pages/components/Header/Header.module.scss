@@ -1,0 +1,27 @@
+
+.headerNav {
+  width: 100%; 
+  background: #EBD1C4; 
+  color: white;
+}
+.header { 
+  display: flex;
+  align-content: flex-start;
+  flex-direction:row;
+  width: 100%;
+}
+.logo{
+  width: 60px; 
+}
+.title {
+  font-size: 28.83px;
+};
+
+.navIcons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  svg {
+    width: 50px;
+  }
+}

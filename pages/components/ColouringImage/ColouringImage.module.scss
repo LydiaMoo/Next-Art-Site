@@ -1,0 +1,93 @@
+.colouringInfo {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  svg {
+    width: 20px;
+  }
+}
+
+
+.downloads {
+  padding: 14px;
+  display:flex; 
+  width:100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  a {
+    display: block;
+    min-width: 150px;
+    padding: 14px;
+  }
+}
+
+.image {
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 400px;
+  }
+}
+
+
+.text { 
+  padding: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 200px;
+ }
+
+@media (min-width: 800px) {
+  .gridContainer {
+    width: 50vw;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 4fr 0.5fr;
+    gap: 1px 1px;
+    grid-template-areas: "image text" "downloads text";
+  }
+  
+  .image { grid-area: image; }
+  
+  .text { grid-area: text; }
+  
+  .downloads { grid-area: downloads; 
+  };
+  }
+
+@media (min-width: 600px) {
+.gridContainer {
+  width: 60vw;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 4fr 0.5fr;
+  gap: 1px 1px;
+  grid-template-areas: "image text" "downloads text";
+}
+
+.image { grid-area: image; }
+
+.text { grid-area: text; }
+
+.downloads { grid-area: downloads; 
+};
+}
+
+@media only screen and (max-width: 600px) {
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+// .image {  }
+
+.text { order: 3 }
+
+// .downloads { 
+// };
+
+}
