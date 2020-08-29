@@ -16,11 +16,11 @@ export default function Home() {
       </Head>
       <Header/> 
       <main className={styles.main}>
-        <h1> Free Colouring Page</h1>
+        <h1>The Harrow - Free Colouring Page</h1>
         <ColouringImage
         url = {'/images/the_harrow.png'}
         alt = {'Black Outline drawing of a 3 storey pub. Black gates arched gates with writing Harrow.'}
-        info={'Former Pub, 643 Compton Street, Clerkenwell, London. '}
+        info={'About The Harrow:  This building is located at 643 Compton Street, Clerkenwell, London. The building was once a pub but, was converted recently for residential use.'}
         />
       </main>
 

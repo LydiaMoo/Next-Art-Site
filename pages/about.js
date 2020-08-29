@@ -15,8 +15,12 @@ export default function Home() {
       </Head>
       <Header/> 
       <main className={styles.main}>
+        <h1>About Me</h1>
+        <p> 
+          Hello, my name is Lydia and I am an architectural design graduate. I am currently working full-time as a software engineer.
 
-        The About Page
+          I love exploring and drawing London's beautiful architecture and sharing it with the world.
+        </p>
       </main>
 
      <Footer/> 
