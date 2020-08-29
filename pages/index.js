@@ -16,10 +16,10 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Welcome</h1>
         <p>Hello, you have made it to my little corner of the internet. There isn't much here at the moment as we're just getting started.</p>
-        <a className={styles.preview} href='/colouring-page/1'>
+        {/* <a className={styles.preview} href='/colouring-page/1'>
           <img  src='/images/the_harrow.png'/>
           <p>Check out my first free colouring page here.</p>
-        </a>
+        </a> */}
       </main>
 
      <Footer/> 
