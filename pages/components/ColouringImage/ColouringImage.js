@@ -17,11 +17,11 @@ export default function ColouringImage(props) {
           {props.info}
         </div>
         <div className={styles.downloads}>
-              <a>
-                Transparent Background
+              <a href='/downloads/the_harrow/transparent_background.png'>
+                <button>Transparent Background</button>
               </a>
-              <a>
-                White Background
+              <a href='/downloads/the_harrow/white_background.png'>
+                <button>White Background</button>
               </a>
         </div>
      
