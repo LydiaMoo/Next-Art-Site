@@ -20,6 +20,10 @@ export default function Home() {
           <img  src='/images/the_harrow.png'/>
           <p>Check out my first free colouring page here.</p>
         </a>
+        <a className={styles.previewShop} href='https://www.etsy.com/uk/shop/LydiaRebekahArt'>
+          <img  src='/images/etsy_logo.svg'/>
+          <p>I made an Etsy shop, take a look here!</p>
+        </a>
       </main>
 
      <Footer/> 

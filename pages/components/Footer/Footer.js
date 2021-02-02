@@ -18,9 +18,9 @@ return(
       Instagram
     </a>
     </div>
-<span className={styles.coffee}>
+{/* <span className={styles.coffee}>
     <Coffee/> 
-    </span>
+    </span> */}
 
 
   </footer>
